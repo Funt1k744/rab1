@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>net</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">net.chetverikov.LinearEquations</node>
+    <node x="164.0" y="155.0">net.core.LogAbstract</node>
+    <node x="0.0" y="310.0">net.exception.ChetverikovException</node>
+    <node x="72.0" y="235.0">net.chetverikov.ChetverikovLog</node>
+    <node x="0.0" y="155.0">net.core.LogInterface</node>
+    <node x="98.0" y="80.0">net.chetverikov.SquareEquations</node>
+    <node x="188.0" y="0.0">net.core.EquationInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.chetverikov.SquareEquations" target="net.chetverikov.LinearEquations">
+      <point x="-42.0" y="-15.0" />
+      <point x="140.0" y="55.0" />
+      <point x="84.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.chetverikov.SquareEquations" target="net.core.EquationInterface">
+      <point x="42.0" y="-15.0" />
+      <point x="224.0" y="55.0" />
+      <point x="280.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.chetverikov.ChetverikovLog" target="net.core.LogInterface">
+      <point x="-40.0" y="-15.0" />
+      <point x="112.0" y="210.0" />
+      <point x="72.0" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.chetverikov.ChetverikovLog" target="net.core.LogAbstract">
+      <point x="40.0" y="-15.0" />
+      <point x="192.0" y="210.0" />
+      <point x="232.0" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="130.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
