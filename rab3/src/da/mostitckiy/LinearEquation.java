@@ -9,6 +9,7 @@ public class LinearEquation {
         if(a==0) {
           return null;
         }
+        System.out.println("а");
         x = new ArrayList<>();
         x.add(-b / a);
         return x;
